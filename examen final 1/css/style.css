@@ -1,0 +1,33 @@
+header{
+	background: linear-gradient(to right, lightblue , lightblue, white, white);
+	width: 100%;
+	position: relative;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+nav{
+	background: #888888;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+content{
+	position: absolute;
+	height: 20%;
+	left: 10%;
+	width: 80%; 
+	font-size: 16px;
+	font-family: "Arial", Gadget, sans-serif;
+	
+}
+
+footer {
+	width:100%;
+	position:fixed;
+	bottom:0;
+	background: #888888;
+	font-family: "Arial", Gadget, sans-serif;
+}
