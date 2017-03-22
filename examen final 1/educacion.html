@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Keywords" content="carlos, lock, curriculum, cv, hoja, vida"/>
+		<meta name="Description" content="Hoja de vida de Carlos Lock"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    	<title>Hoja de vida de Carlos Lock</title>
+	</head>
+	
+	<body style="margin:0">
+		<header>
+			
+			<!--Creo una tabla para ordenar el contenido que pondre en la cabecera del BODY-->
+			<table style="width:100%">
+				<tr>
+					<td width="10%">
+						<svg width="150px" height="150px">
+							<image width="150px" height="150px" xlink:href="img/logo.svg">No se puede mostrar el Logo</image>
+						</svg>
+					</td>
+					<td width="80%">
+						<h1>RESUMEN DE VIDA</h1>
+						<h1>Carlos Augusto Lock García</h1>
+						<h2>Fecha de Nacimiento: 01 de Enero de 1927</h2>
+						<h2>Lugar de nacimiento: Lima, Perú</h2>
+					</td>
+					<td width="20%">
+						<img src="img/foto.jpg" height="150px">
+					</td>
+				</tr>
+			</table>
+
+			<nav>
+				<a href="index.html" title="Informacion básica">INFORMACION</a> |
+				<a href="educacion.html" title="Formación académica">EDUCACION</a> |
+				<a href="experiencia.html" title="Experiencia laboral">EXPERIENCIA</a> |
+			</nav>
+		</header>
+
+		<content>
+			<h2><u><em>EDUCACION</em></u></h2>
+			<p>
+				<table border="1" style="text-align: center">
+					<tr>
+						<th width="100px">AÑOS</th>
+						<th width="500px">INSTITUCION</th>
+						<th width="100px">LUGAR</th>
+						<th width="120px">¿CULMINO?</th>
+					</tr>
+					<tr>
+						<td>1991</td>
+						<td>C.E.P. PERUANO CHINO JUAN XXIII</td>
+						<td>Lima - Perú</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2003</td>
+						<td>PONTIFICIA UNIVERSIDAD CATOLICA DEL PERU</td>
+						<td>Lima - Perú</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2008</td>
+						<td>TECSUP</td>
+						<td>Lima - Perú</td>
+						<td>Si</td>
+					</tr>
+				</table>
+			</p>
+
+			<p>
+			
+			<!--Formulario para ingresar estudios, INNTITUCION Y LUGAR SON CAMPOS REQUERIDOS-->
+			<form>
+				<legend><h3>Agregar Estudios</h3></legend>
+					<label>Año: </label><input type="number" min="1900" max="2099" step="1" value="2016" /><br><br>
+					<label>Institucion:</label><input type="text" minlength="2" required><br><br>
+					<label>Lugar:</label><br><textarea required rows="8" cols="50"></textarea><br><br>
+					<label>¿Culminó?</label><br>
+						<input type="radio" name="status" value="1" checked>Si<br>
+  						<input type="radio" name="status" value="0">No<br><br>
+
+  					<input type="submit" name="submit" value="Agregar">
+  					<input type="reset" name="reset" value="Borrar">
+				</form>
+			</p>
+
+			<!--Estos saltos de linea adicionales son para que el <footer> no monte el contenido de <content> cuando la ventana del navegador no está maximizada-->
+			<br><br><br>
+		</content>
+
+		<footer>
+			
+			<!--Tabla para ordenar el contenido del FOOTER, la primera columna se le da un ancho de 97% para que la segunda columna este cerca del margen derecho de la ventana-->
+			<table style="width:100%">
+					<tr>
+						<td width="97%">
+							E-mail:
+							<a href="mailto:carlock@gmail.com" target="_top">carlock@gmail.com</a>
+							<br>Telefono: (+51) 999-888888
+						</td>
+						<td>
+							<a target="_blank" title="Sigueme en Facebook" href="https://www.facebook.com">
+							<img alt="Sigueme en facebook" src="img/facebook.svg" width="40">
+							</a>
+						</td>		
+		</footer>
+
+	</body>
+</html>
